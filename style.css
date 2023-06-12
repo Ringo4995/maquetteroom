@@ -28,7 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+body{
 	line-height: 1;
 }
 ol, ul {
@@ -61,15 +61,15 @@ nav{
 
 ul{
 	position: absolute;
-	top: 18px;
-    left: 30px;
+	top: 90px;
+    left: 70px;
 }
 
 li{
     display: inline;
 	margin: 25px;
 	color: white;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 }
 
 .taille-nav{
@@ -80,23 +80,23 @@ li{
     position: absolute;
     width: 400px;
     display: inline-block;
-    top: 0;
+    top: 191px;
     height: 535px;
-    width: 641px;
-    left: 840px;
+    width: 100px;
+    left: 1250px;
     text-align: left;
 }
 
 .placement-text{
     position: relative;
-    top: 20%;
+    top: 10%;
     padding-left: 20%;
     line-height: 22px;
 }
 
 .text-taille{
-    font-size: 2rem;
-    width: 350px;
+    font-size: 4rem;
+    width: 500px;
 }
 
 .deborde{
@@ -114,7 +114,7 @@ li{
     height: 60px;
     width: 130px;
     background-color: black;
-    top: 104px;
+    top: 157px;
     left: -128px;
 }
 
@@ -128,17 +128,17 @@ footer .parent{
 }
 
 footer .imagegauche{
-    display: inline-block; width: 20%; vertical-align:middle;
+    display: inline-block; width: 25%; vertical-align:middle;
     text-align: center;
 }
 
 footer .imagedroite{
-    display: inline-block; width: 20.8%; vertical-align:middle;
+    display: inline-block; width: 26.3%; vertical-align:middle;
     text-align: center;
 }
 
 footer .centre{
-    display: inline-block; width: 26.1%; vertical-align:middle;
+    display: inline-block; width: 37.4%; vertical-align:middle;
     padding: 0 2% 0 2%;
 }
 
@@ -147,10 +147,14 @@ footer .parent .centre h1{
 }
 
 footer .parent .centre p{
-    margin-bottom: 3%; color: gray;
+     color: gray;
 }
 
 
 footer .imagegauche img, footer .imagedroite img{
     width: 100%;
+}
+
+footer{
+	line-height: 1.5;
 }
