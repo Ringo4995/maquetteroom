@@ -1,0 +1,11 @@
+footer .imagegauche, footer .centre, footer .imagedroite{
+    display: inline-block; width: 33%; vertical-align:middle;
+}
+
+footer .imagegauche img, footer .imagedroite img{
+    width: 100%;
+}
+
+footer .centre{
+    text-align: center;
+}
