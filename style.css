@@ -57,6 +57,7 @@ nav{
 ul{
 	position: absolute;
 	top: 18px;
+    left: 30px;
 }
 
 li{
@@ -64,4 +65,50 @@ li{
 	margin: 25px;
 	color: white;
 	font-size: 1.2rem;
+}
+
+.taille-nav{
+    font-size: 1.8rem;
+}
+
+.text-t{
+    position: absolute;
+    width: 400px;
+    display: inline-block;
+    top: 0;
+    height: 535px;
+    width: 641px;
+    left: 840px;
+    text-align: left;
+}
+
+.placement-text{
+    position: relative;
+    top: 20%;
+    padding-left: 20%;
+    line-height: 22px;
+}
+
+.text-taille{
+    font-size: 2rem;
+    width: 350px;
+}
+
+.deborde{
+    width: 450px;
+}
+
+.icone-fleche{
+    position: relative;
+    top: 24px;
+    left: 125px;
+}
+
+.noir{
+    position: relative;
+    height: 60px;
+    width: 130px;
+    background-color: black;
+    top: 104px;
+    left: -128px;
 }
