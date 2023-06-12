@@ -57,6 +57,7 @@ nav{
 ul{
 	position: absolute;
 	top: 18px;
+    left: 30px;
 }
 
 li{
@@ -64,4 +65,25 @@ li{
 	margin: 25px;
 	color: white;
 	font-size: 1.2rem;
+}
+
+.taille-nav{
+    font-size: 1.8rem;
+}
+
+.text-t{
+    position: absolute;
+    width: 400px;
+    background-color: red;
+    display: inline-block;
+    top: 0;
+    height: 535px;
+    width: 641px;
+    left: 840px;
+    text-align: left;
+}
+
+.placement-text{
+    position: relative;
+    top: 20%;
 }
