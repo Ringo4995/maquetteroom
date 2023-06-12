@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: url(/room/font/LeagueSpartan-VariableFont_wght.ttf);
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -111,4 +116,41 @@ li{
     background-color: black;
     top: 104px;
     left: -128px;
+}
+
+body{
+    font-family: 'League Spartan';
+}
+
+footer .parent{
+    width: 100%;
+    margin-top: -5px;
+}
+
+footer .imagegauche{
+    display: inline-block; width: 20%; vertical-align:middle;
+    text-align: center;
+}
+
+footer .imagedroite{
+    display: inline-block; width: 20.8%; vertical-align:middle;
+    text-align: center;
+}
+
+footer .centre{
+    display: inline-block; width: 26.1%; vertical-align:middle;
+    padding: 0 2% 0 2%;
+}
+
+footer .parent .centre h1{
+    margin-bottom: 3%;
+}
+
+footer .parent .centre p{
+    margin-bottom: 3%; color: gray;
+}
+
+
+footer .imagegauche img, footer .imagedroite img{
+    width: 100%;
 }
